@@ -1,6 +1,6 @@
 {
     "name": "tobya/makepest",
-    "description": "New command line name for making a pest",
+    "description": "The missing make:pest command.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
