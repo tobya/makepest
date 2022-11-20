@@ -1,0 +1,22 @@
+{
+    "name": "tobya/makepest",
+    "description": "New command line name for making a pest",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tobya\\Makepest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Toby Allen",
+            "email": "tobyallen@toflidium.com"
+        }
+    ],
+    "require": {
+                "pestphp/pest": "^1.12",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "pestphp/pest-plugin-parallel": "^1.2"
+
+    }
+}
