@@ -30,13 +30,16 @@ class MakePestCommand extends Command
     public function handle()
     {
         // Simply call the pest:test command with passed params.
-        Artisan::call('pest:test',
+        $result = Artisan::call('pest:test',
                     ['name' => $this->argument('name'),
                         '--unit' => $this->option('unit'),
                         '--dusk' => $this->option('dusk'),
                         '--test-directory' => $this->option('test-directory'),
                         '--force' => $this->option('force')]);
-        return 0;
+
+        $this->info(Artisan::output());
+
+        return $result;
     }
 
 
