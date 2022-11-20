@@ -16,7 +16,13 @@
     "require": {
                 "pestphp/pest": "^1.12",
         "pestphp/pest-plugin-laravel": "^1.1",
-        "pestphp/pest-plugin-parallel": "^1.2"
 
+    },
+  "extra": {
+        "laravel":{
+            "providers" : [
+                "Tobya\\Makepest\\MakePestServiceProvider"
+            ]
+        }
     }
 }
