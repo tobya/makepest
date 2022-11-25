@@ -15,7 +15,7 @@
     ],
     "require": {
                 "pestphp/pest": "^1.12",
-        "pestphp/pest-plugin-laravel": "^1.1"
+                "pestphp/pest-plugin-laravel": "^1.1"
 
     },
   "extra": {
