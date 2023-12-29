@@ -1,5 +1,7 @@
 # make:pest
 
+#### Archived: Pest:Test dissapeared so did this component
+
 The missing make:pest command!
 
 [Pest](https://pestphp.com/) is an amazing test suite written by Caleb Porzio for any PHP application but primarily used with Laravel.
